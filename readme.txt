@@ -1,3 +1,8 @@
+This Manufacturing Execution System (MES) is built using Vue3.js and python. There are three main modules in this MES system which are dashboard, production tracking, and quality control.
+Dashboard is mainly for displaying key manufacturing metrics using line chart and bar chart.
+Production Tracking displays production details such as raw materials, production time, and so on. This module allows users to implement CRUD (create, read, update, and delete) operations on production records.
+Quality Control is used for tracking quality control inspections and generate simple report.
+
 Installation Steps
 1. Node.js
    a. To download the Node.js, https://nodejs.org/en
