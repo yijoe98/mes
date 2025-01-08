@@ -1,0 +1,30 @@
+@import 'variable';
+
+.side-bar{
+    background-color: $blue-bg;
+  
+    h1{
+      color: white;
+      @include title;
+      font-size: $fs-38;
+      font-weight: $fw-800;
+    }
+  
+    .container{
+      &-item{
+        @include title;
+        color: white;
+        font-size: $fs-20;
+        font-weight: $fw-500;
+  
+        &:hover{
+          background-color: #d7d9f826;
+          transition: .3s;
+        }
+  
+        &.selected{
+          background-color: #ffffff61;
+        }
+      }
+    }
+}

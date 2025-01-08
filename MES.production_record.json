@@ -1,0 +1,390 @@
+[{
+  "_id": {
+    "$oid": "677efef7d49ed56c7defdcab"
+  },
+  "batchId": "B001",
+  "inspectionDate": {
+    "$date": "2023-12-05T00:00:00.000Z"
+  },
+  "inspectorName": "John Doel",
+  "qty": 90,
+  "defectQty": 2,
+  "productionLine": "Line 1",
+  "machine": "Machine 1",
+  "inspectionStatus": "Pass",
+  "inspectionRemarks": "No issues observed",
+  "inspectionDetails": [
+    {
+      "inspectionID": "I001",
+      "status": "Pass",
+      "remarks": "No defect"
+    },
+    {
+      "inspectionID": "I002",
+      "status": "Pass",
+      "remarks": "Good condition"
+    }
+  ],
+  "productionStart": {
+    "$date": "2024-12-25T00:00:00.000Z"
+  },
+  "productionEnd": {
+    "$date": "2024-12-29T00:00:00.000Z"
+  },
+  "productionStatus": "Complete",
+  "productionRemarks": "None",
+  "rawMaterials": [
+    {
+      "rawMaterial": "Material A",
+      "qtyRequired": 30,
+      "warehouseEntry": {
+        "$date": "2024-12-22T00:00:00.000Z"
+      },
+      "warehouseExit": {
+        "$date": "2024-12-23T00:00:00.000Z"
+      }
+    },
+    {
+      "rawMaterial": "Material B",
+      "qtyRequired": 30,
+      "warehouseEntry": {
+        "$date": "2024-12-22T00:00:00.000Z"
+      },
+      "warehouseExit": {
+        "$date": "2024-12-24T00:00:00.000Z"
+      }
+    },
+    {
+      "rawMaterial": "Material C",
+      "qtyRequired": 20,
+      "warehouseEntry": {
+        "$date": "2024-12-23T00:00:00.000Z"
+      },
+      "warehouseExit": {
+        "$date": "2024-12-25T00:00:00.000Z"
+      }
+    }
+  ],
+  "productEntry": {
+    "$date": "2024-12-29T00:00:00.000Z"
+  },
+  "productExit": {
+    "$date": "2024-12-31T00:00:00.000Z"
+  },
+  "deliveryDate": {
+    "$date": "2025-01-02T00:00:00.000Z"
+  },
+  "status": "Complete",
+  "remarks": "None"
+},
+{
+  "_id": {
+    "$oid": "677f0002d49ed56c7defdcad"
+  },
+  "batchId": "B002",
+  "inspectionDate": {
+    "$date": "2024-11-20T00:00:00.000Z"
+  },
+  "inspectorName": "Jane Smith",
+  "qty": 150,
+  "defectQty": 1,
+  "productionLine": "Line 2",
+  "machine": "Machine 2",
+  "inspectionStatus": "Pass",
+  "inspectionRemarks": "No defects found",
+  "inspectionDetails": [
+    {
+      "inspectionID": "I003",
+      "status": "Pass",
+      "remarks": "Good quality"
+    }
+  ],
+  "productionStart": {
+    "$date": "2025-02-01T00:00:00.000Z"
+  },
+  "productionEnd": {
+    "$date": "2025-02-05T00:00:00.000Z"
+  },
+  "productionStatus": "In Progress",
+  "productionRemarks": "None",
+  "rawMaterials": [
+    {
+      "rawMaterial": "Material D",
+      "qtyRequired": 80,
+      "warehouseEntry": {
+        "$date": "2025-01-20T00:00:00.000Z"
+      },
+      "warehouseExit": {
+        "$date": "2025-01-21T00:00:00.000Z"
+      }
+    },
+    {
+      "rawMaterial": "Material E",
+      "qtyRequired": 40,
+      "warehouseEntry": {
+        "$date": "2025-01-21T00:00:00.000Z"
+      },
+      "warehouseExit": {
+        "$date": "2025-01-23T00:00:00.000Z"
+      }
+    },
+    {
+      "rawMaterial": "Material F",
+      "qtyRequired": 30,
+      "warehouseEntry": {
+        "$date": "2025-01-23T00:00:00.000Z"
+      },
+      "warehouseExit": {
+        "$date": "2025-01-25T00:00:00.000Z"
+      }
+    }
+  ],
+  "productEntry": {
+    "$date": "2025-02-01T00:00:00.000Z"
+  },
+  "productExit": {
+    "$date": "2025-02-05T00:00:00.000Z"
+  },
+  "deliveryDate": {
+    "$date": "2025-02-07T00:00:00.000Z"
+  },
+  "status": "In Progress",
+  "remarks": "Awaiting final approval"
+},
+{
+  "_id": {
+    "$oid": "677f0033d49ed56c7defdcae"
+  },
+  "batchId": "B003",
+  "inspectionDate": {
+    "$date": "2024-10-04T00:00:00.000Z"
+  },
+  "inspectorName": "Emily Davis",
+  "qty": 80,
+  "defectQty": 3,
+  "productionLine": "Line 1",
+  "machine": "Machine 1",
+  "inspectionStatus": "Fail",
+  "inspectionRemarks": "Defects found in material",
+  "inspectionDetails": [
+    {
+      "inspectionID": "I004",
+      "status": "Fail",
+      "remarks": "Material defects"
+    },
+    {
+      "inspectionID": "I005",
+      "status": "Fail",
+      "remarks": "Uneven surface"
+    }
+  ],
+  "productionStart": {
+    "$date": "2025-01-09T00:00:00.000Z"
+  },
+  "productionEnd": {
+    "$date": "2025-01-11T00:00:00.000Z"
+  },
+  "productionStatus": "Incomplete",
+  "productionRemarks": "Needs further review",
+  "rawMaterials": [
+    {
+      "rawMaterial": "Material G",
+      "qtyRequired": 40,
+      "warehouseEntry": {
+        "$date": "2025-01-05T00:00:00.000Z"
+      },
+      "warehouseExit": {
+        "$date": "2025-01-07T00:00:00.000Z"
+      }
+    },
+    {
+      "rawMaterial": "Material H",
+      "qtyRequired": 20,
+      "warehouseEntry": {
+        "$date": "2025-01-07T00:00:00.000Z"
+      },
+      "warehouseExit": {
+        "$date": "2025-01-08T00:00:00.000Z"
+      }
+    },
+    {
+      "rawMaterial": "Material I",
+      "qtyRequired": 20,
+      "warehouseEntry": {
+        "$date": "2025-01-08T00:00:00.000Z"
+      },
+      "warehouseExit": {
+        "$date": "2025-01-09T00:00:00.000Z"
+      }
+    }
+  ],
+  "productEntry": {
+    "$date": "2025-01-09T00:00:00.000Z"
+  },
+  "productExit": {
+    "$date": "2025-01-11T00:00:00.000Z"
+  },
+  "deliveryDate": {
+    "$date": "2025-01-13T00:00:00.000Z"
+  },
+  "status": "Incomplete",
+  "remarks": "Review materials"
+},
+{
+  "_id": {
+    "$oid": "677f004cd49ed56c7defdcaf"
+  },
+  "batchId": "B004",
+  "inspectionDate": {
+    "$date": "2024-09-24T00:00:00.000Z"
+  },
+  "inspectorName": "Michael Clark",
+  "qty": 120,
+  "defectQty": 1,
+  "productionLine": "Line 1",
+  "machine": "Machine 1",
+  "inspectionStatus": "Pass",
+  "inspectionRemarks": "Quality confirmed",
+  "inspectionDetails": [
+    {
+      "inspectionID": "I006",
+      "status": "Pass",
+      "remarks": "Good condition"
+    }
+  ],
+  "productionStart": {
+    "$date": "2025-02-01T00:00:00.000Z"
+  },
+  "productionEnd": {
+    "$date": "2025-02-05T00:00:00.000Z"
+  },
+  "productionStatus": "Planned",
+  "productionRemarks": "Scheduled for production",
+  "rawMaterials": [
+    {
+      "rawMaterial": "Material J",
+      "qtyRequired": 60,
+      "warehouseEntry": {
+        "$date": "2025-01-26T00:00:00.000Z"
+      },
+      "warehouseExit": {
+        "$date": "2025-01-27T00:00:00.000Z"
+      }
+    },
+    {
+      "rawMaterial": "Material K",
+      "qtyRequired": 40,
+      "warehouseEntry": {
+        "$date": "2025-01-28T00:00:00.000Z"
+      },
+      "warehouseExit": {
+        "$date": "2025-01-29T00:00:00.000Z"
+      }
+    },
+    {
+      "rawMaterial": "Material L",
+      "qtyRequired": 20,
+      "warehouseEntry": {
+        "$date": "2025-01-30T00:00:00.000Z"
+      },
+      "warehouseExit": {
+        "$date": "2025-01-31T00:00:00.000Z"
+      }
+    }
+  ],
+  "productEntry": {
+    "$date": "2025-02-01T00:00:00.000Z"
+  },
+  "productExit": {
+    "$date": "2025-02-05T00:00:00.000Z"
+  },
+  "deliveryDate": {
+    "$date": "2025-02-07T00:00:00.000Z"
+  },
+  "status": "Planned",
+  "remarks": "Waiting for material delivery"
+},
+{
+  "_id": {
+    "$oid": "677f0059d49ed56c7defdcb0"
+  },
+  "batchId": "B005",
+  "inspectionDate": {
+    "$date": "2024-08-09T00:00:00.000Z"
+  },
+  "inspectorName": "Olivia Brown",
+  "qty": 200,
+  "defectQty": 5,
+  "productionLine": "Line 2",
+  "machine": "Machine 2",
+  "inspectionStatus": "Fail",
+  "inspectionRemarks": "Multiple defects found",
+  "inspectionDetails": [
+    {
+      "inspectionID": "I007",
+      "status": "Fail",
+      "remarks": "Cracked surface"
+    },
+    {
+      "inspectionID": "I008",
+      "status": "Fail",
+      "remarks": "Poor finishing"
+    },
+    {
+      "inspectionID": "I009",
+      "status": "Fail",
+      "remarks": "Inconsistent color"
+    }
+  ],
+  "productionStart": {
+    "$date": "2025-02-28T00:00:00.000Z"
+  },
+  "productionEnd": {
+    "$date": "2025-03-04T00:00:00.000Z"
+  },
+  "productionStatus": "Incomplete",
+  "productionRemarks": "Needs rework",
+  "rawMaterials": [
+    {
+      "rawMaterial": "Material M",
+      "qtyRequired": 100,
+      "warehouseEntry": {
+        "$date": "2025-02-14T00:00:00.000Z"
+      },
+      "warehouseExit": {
+        "$date": "2025-02-15T00:00:00.000Z"
+      }
+    },
+    {
+      "rawMaterial": "Material N",
+      "qtyRequired": 70,
+      "warehouseEntry": {
+        "$date": "2025-02-16T00:00:00.000Z"
+      },
+      "warehouseExit": {
+        "$date": "2025-02-17T00:00:00.000Z"
+      }
+    },
+    {
+      "rawMaterial": "Material O",
+      "qtyRequired": 30,
+      "warehouseEntry": {
+        "$date": "2025-02-18T00:00:00.000Z"
+      },
+      "warehouseExit": {
+        "$date": "2025-02-19T00:00:00.000Z"
+      }
+    }
+  ],
+  "productEntry": {
+    "$date": "2025-02-28T00:00:00.000Z"
+  },
+  "productExit": {
+    "$date": "2025-03-04T00:00:00.000Z"
+  },
+  "deliveryDate": {
+    "$date": "2025-03-07T00:00:00.000Z"
+  },
+  "status": "Incomplete",
+  "remarks": "Awaiting material reprocessing"
+}]

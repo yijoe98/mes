@@ -1,0 +1,39 @@
+@mixin title{
+    display: flex;
+    padding: 12px 24px;
+    text-align: left;
+    width: 100%;
+}
+
+$fs-12: 12px;
+$fs-14: 14px;
+$fs-16: 16px;
+$fs-18: 18px;
+$fs-20: 20px;
+$fs-22: 22px;
+$fs-24: 24px;
+$fs-28: 28px;
+$fs-32: 32px;
+$fs-36: 36px;
+$fs-38: 38px;
+$fs-40: 40px;
+$fs-48: 48px;
+$fs-54: 54px;
+$fs-64: 64px;
+$fs-84: 84px;
+$fs-128: 128px;
+
+
+$fw-400: 400;
+$fw-500: 500;
+$fw-600: 600;
+$fw-700: 700;
+$fw-800: 800;
+$fw-900: 900;
+
+
+$blue-bg: rgb(23 37 84);
+$medium-blue: rgb(37 99 235);
+$green: rgb(74 222 128);
+$red: rgb(239 68 68);
+
